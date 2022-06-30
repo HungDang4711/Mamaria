@@ -1,0 +1,56 @@
+
+body {
+    margin: 0; /* mit margin: 8px; kann man einen Rand von 8px erzeugen */
+    padding: 0;
+    font-family: "playfair display";
+}
+h3 {
+	text-align:center;
+}
+header {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+}
+
+img {
+    display: block;
+	margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	border: black solid 1px;
+}
+
+/* .blink {
+    animation: blinker 1s step-start infinite;
+}
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+} */
+
+section article {
+    float: left;
+    border: black solid 3px;
+    width: 33.333%;
+	height:700px;
+    box-sizing: border-box;
+}
+
+section article:hover {
+    border: white solid 3px; /* rgb(226,0,116) solid 3px; */
+    background-color: #b6701e; /*lightblue; */
+}
+
+ul ::marker {
+   
+    color: black;
+    font-size: 1.5em;
+}
+li {
+    text-align: left;
+    
+}
